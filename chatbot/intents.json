@@ -1,0 +1,90 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey", "kedu", "kee way", "wats up", "how far", "how you dey"],
+        "responses": ["Hello", "i dey o", "How can i help you", "how is it going?", "whats up my nigga", "how body?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see ya", "see you later", "later", "cya", "e go be na"],
+        "responses": ["bye bye", "cya later", "see you soon", "have a nice day", "oya na no wahala"]
+      },
+      {
+        "tag": "maker",
+        "patterns": ["who made you?", "who is your creator", "who designed you?", "who is your maker", "who created you?"],
+        "responses": ["I was created by the team at Prime Robotics", "Prime made me"]
+      },
+      {
+        "tag": "introduction",
+        "patterns": ["who are you?", "what are you?", "what is your name?", "introduce yourself", "what do i call you?"],
+        "responses": ["i am Primus", "you can call me Primus", "my name is Primus"]
+      },
+      {
+        "tag": "tell_time",
+        "patterns": ["what time is it?", "tell me the time", "do you know the time?", "current time", "what's the time now?"],
+        "responses": ["The current time is {time}", "It is {time}", "Right now, it's {time}"]
+      },
+      {
+        "tag": "browse_web",
+        "patterns": ["search for", "look up", "find", "browse", "can you check on the web for", "search the internet for"],
+        "responses": ["Searching for {query}...", "Let me look that up for you", "Hold on while I search for {query}"]
+      },
+      {
+        "tag": "robotic_arm_control",
+        "patterns": ["move the arm", "control the robotic arm", "move to position", "send arm to", "go to position"],
+        "responses": ["Moving the robotic arm to position {position}", "Arm is heading to {position}", "Executing movement to {position}"]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["what's the weather like?", "is it going to rain?", "give me today's weather", "weather report", "current weather"],
+        "responses": ["The weather today is {weather}.", "It will be {condition} with a temperature of {temp}°C."]
+      },
+      {
+        "tag": "set_reminder",
+        "patterns": ["set a reminder", "remind me to", "set an alarm for", "wake me up at", "schedule reminder"],
+        "responses": ["Reminder set for {time}.", "Alarm set for {time}."]
+      },
+      {
+        "tag": "math",
+        "patterns": ["what is 5 plus 5?", "calculate 10 times 4", "square root of 16", "solve 2x + 3 = 7"],
+        "responses": ["The answer is {result}.", "That equals {result}."]
+      },
+      {
+        "tag": "jokes_fun_facts",
+        "patterns": ["tell me a joke", "make me laugh", "give me a fun fact", "surprise me with trivia"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Here's a fun fact: {fact}"]
+      },
+      {
+        "tag": "music_control",
+        "patterns": ["play some music", "pause the song", "skip this track", "play my favorite playlist", "next song"],
+        "responses": ["Playing your music...", "Song paused.", "Skipping the track."]
+      },
+      {
+        "tag": "home_automation",
+        "patterns": ["turn on the lights", "dim the living room lights", "set the thermostat to 22 degrees", "lock the front door"],
+        "responses": ["Turning on the lights.", "Adjusting thermostat to {temp}°C.", "Locking the door."]
+      },
+      {
+        "tag": "faq",
+        "patterns": ["how do I reset my password?", "what is Prime Robotics?", "who is the CEO?", "where are you located?"],
+        "responses": ["You can reset your password by...", "Prime Robotics is a company that specializes in {description}"]
+      },
+      {
+        "tag": "currency_conversion",
+        "patterns": ["convert 100 USD to EUR", "how much is 50 pounds in dollars?", "currency conversion for 200 yen to naira"],
+        "responses": ["100 USD equals {amount} EUR.", "50 pounds is approximately {amount} USD."]
+      },
+      {
+        "tag": "news",
+        "patterns": ["what's the latest news?", "give me tech news", "what's happening in sports?", "news updates"],
+        "responses": ["Here are the latest headlines: {headlines}", "In tech news: {headlines}"]
+      },
+      {
+        "tag": "translation",
+        "patterns": ["translate hello to French", "how do you say goodbye in Spanish?", "translate this sentence", "language translation"],
+        "responses": ["'Hello' in French is 'Bonjour'.", "'Goodbye' in Spanish is 'Adiós'."]
+      }
+    ]
+  }
+  
